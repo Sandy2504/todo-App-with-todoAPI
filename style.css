@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #4b4748;
+  padding: 5rem;
+  border-radius: 10px 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+  height: 100vh;
+}
+
+.add,
+.filter,
+.todos {
+  margin: 1rem;
+  padding: 1rem;
+  height: auto;
+  width: 25rem;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 3px 3px #0f0f10, 5px 5px #edd18e;
+}
+
+#description {
+  all: unset;
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  color: grey;
+  width: 14rem;
+}
+
+.addbtn {
+  all: unset;
+  color: white;
+  background-color: #4b4748;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px #eeb866;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.removebtn {
+  all: unset;
+  color: white;
+  background-color: #4b4748;
+  padding: 0.8rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px #eeb866;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 10rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+#list {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+#list li {
+  line-height: 1.5rem;
+}
